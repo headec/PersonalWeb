@@ -1,0 +1,14 @@
+/* mystyle.css */
+body{
+  text-align: center;
+  background-color: lightblue;
+}
+p{
+  background-color: skyblue;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 2%;
+}
+#button{
+  text-align: left;
+}

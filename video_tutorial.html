@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Video Tutorial Page</title>
+		<link rel="stylesheet" type="text/css" href="style/part2.css">
+	</head>
+	<body>
+		<!-- Start of logo -->
+		<header>
+	  	<a href="index.html" title = "Redirect to index">
+				<img src = "img/logo.png" alt = "Logo">
+			</a>
+			<div class="welcome">
+				Welcome to Yong Kuk Lee's Project Webpage
+			</div>
+		</header>
+		<div class="contents">
+		<!-- End of logo
+				 Start of menu bar -->
+			<nav>
+				<ol>
+					<li><a href = "img/logo.png" title = "Redirect to logo">Logo</a></li>
+					<li><a href = "#footer" title = "Redirect to footer">Footer</a></li>
+					<li><a href = "index.html" title = "Redirect to index">Index</a></li>
+					<li><a href = "movie.html" title = "Redirect to movie">Movie</a></li>
+					<li><a href = "vacations.html" title = "Redirect to vacations">Vacations</a></li>
+					<li><a href = "video_tutorial.html" title = "Redirect to video tutorial">Video Tutorial</a></li>
+					<li><a href = "acknowledgments.html" title = "Redirect to Acknowledgments">Acknowledgments</a></li>
+				</ol>
+			</nav>
+
+			<!-- End of menu bar
+					 Start of contents -->
+
+			<div class ="article">
+				<video width="640" height="360" controls title = "This is a short video named 'under_bridge_1_10.mp4'">
+		      <source src = "video/under_bridge_1_10.mp4" type="video/mp4">
+					Sorry, you browser does not support HTML5/mp4 video.
+		    </video>
+				<!-- (End of video)
+		 			   (Start of video tag description)-->
+				<div class="vid_contents">
+			    <h4>Brief description of how the tag works:</h4>
+			    <code>&lt;video&gt;</code> tag, in this assignment, consists of 3 attributes:
+			    <ul>
+			      <li>width - decides the width of the video</li>
+			      <li>height - decides the height of the video</li>
+			      <li>controls - adds the "controls" of the video. ex) play, pause, and volume</li>
+			    </ul>
+					<p>Click <a href = "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video" title = "Redirect to https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">here</a>
+						to see more information about <code>&lt;video&gt;</code> tag's attributes.
+					</p>
+					<p>
+			      Between the <code>&lt;video&gt;</code> and <code>&lt;/video&gt;</code> tags, you can add a <code>&lt;source&gt;</code> tag which brings up the video from the location indicated by "src" attribute.
+			      <br>
+			      "type" attribute reads the type of the media; in our case, it's a "video" file formatted in "mp4."
+			      <br>
+						If the browser does not support the video, it will automatically show the texts written between the <code>&lt;video&gt;</code> and <code>&lt;/video&gt;</code> tags.
+					</p>
+			    <p>
+			      In this webpage, the following example is how the <code>&lt;video&gt;</code> is written in HTML source:
+			    </p>
+			    <pre>
+	&lt;video&gt; width="320" height="180" controls title = "This is a short video named 'under_bridge_1_10.mp4'"&gt;
+	&lt;source src = "video/under_bridge_1_10.mp4" type="video/mp4"&gt;
+	Sorry, you browser does not support HTML5/mp4 video.
+	&lt;/video&gt;
+			    </pre>
+				</div>
+			</div>
+			<!-- End of contents(description)
+				 Start of footer -->
+		</div>
+		<footer>
+		<p id = "footer">
+			Yong Kuk Lee
+			<br>
+			<a href = "mailto:yongkukl@sfu.ca" title = "mails to yonkukl@sfu.ca">yongkukl@sfu.ca</a>
+			<br>
+			CMPT 165, Summer 2017, <a href = "https://www.sfu.ca" target = "_blank" title = "Redirect to https://www.sfu.ca">SFU</a>.
+			<a href ="https://www.sfu.ca/computing/student-stories/fatemeh-riahi.html" target = "_blank" title = "Redirect to https://www.sfu.ca/computing/student-stories/fatemeh-riahi.html" >CMPT</a>
+			<br>
+			<a href="index.html" title = "Redirect to index">Index Page</a>
+		</p>
+		</footer>
+		<!-- End of footer -->
+	</body>
+</html>

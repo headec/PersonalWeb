@@ -1,0 +1,145 @@
+/* General Design Section */
+
+*{
+  box-sizing:border-box;
+  background-color: lightpink;
+}
+
+.index_pg{
+  font-size: 35px;
+}
+
+.welcome {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Roboto",Arial,Helvetica,sans-serif;
+  margin-bottom: 20px;
+  color: gray;
+  text-shadow: 3px 2px black;
+  font-variant: small-caps;
+}
+header {
+  text-align: center;
+  border-bottom: 2px solid hotpink;
+  width: 100%;
+}
+nav {
+  float: left;
+  width: 220px;
+  border-right: 2px solid hotpink;
+}
+ol, ul {
+  list-style: none;
+}
+
+nav>ol>li{
+  font-family: "Roboto",Arial,Helvetica,sans-serif;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+nav>ol>li>a{
+  font-size: 18px;
+  font-variant: small-caps;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:link{
+  color: hotpink;
+}
+
+a:visited{
+  color: hotpink;
+}
+
+.article {
+  font-size: 16px;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  color: royalblue;
+  float: left;
+  border-left: 2px solid hotpink;
+  margin-left: -2px;
+  padding: 50px;
+  width:80%;
+}
+footer{
+  text-align: center;
+  clear:both;
+  border-top: 2px solid hotpink;
+  border-bottom: 2px solid hotpink;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.contents {
+  width: 1600px;
+}
+
+/* Personal heading/emphasis element CSS */
+h1, h4{
+  font-size: 2rem;
+  color: lightgreen;
+  text-shadow: 3px 2px green;
+}
+em{
+  color: yellow;
+  text-shadow: 3px 2px orange;
+}
+strong{
+  color: red;
+  font-size: 1.5rem;
+}
+code{
+  color: black;
+}
+pre{
+  color: gray;
+}
+
+/* MOVIE section*/
+.gog{
+  float: left;
+  padding-right: 20px;
+}
+
+.movie_cont{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+/* TABLE design */
+table{
+  font-family: Papyrus, fantasy;
+  font-weight: bold;
+  width:100%;
+  table-layout: fixed;
+  border-collapse:collapse;
+}
+th, td{
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+td>a{
+    border: 1px solid hotpink;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: rgba(255,182,13,0.5);
+}
+.top_table>th{
+  background-color: rgba(0,12,93,0.7);
+}
+tr th:first-child{
+  padding-left: 30px;
+  color: rgba(224,29,29,1);
+}
+tr th:last-child, tr td:last-child{
+   color: white;
+   padding-left: 100px;
+ }
+tr th:nth-child(3){
+  color: hotpink;
+}
+
+tr:not(:first-child):hover td, tr:not(:first-child):hover th{
+  background-color:rgba(255,182,13,0.5);
+}
